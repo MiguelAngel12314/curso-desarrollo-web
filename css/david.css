@@ -1,0 +1,11 @@
+.nav li{
+    list-style-type: none;
+    float: left;
+    background: rgb(76, 251, 114);
+    height: 30px;
+    padding-right: 100px;
+    font-size: 17px;
+}
+.font{
+    font-size: 25px !important;
+}
