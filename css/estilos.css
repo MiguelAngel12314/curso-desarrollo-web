@@ -1,0 +1,9 @@
+ul.horizontal li{
+    display: block;
+    float: left;
+    padding:0 10px;
+    background-color: aqua;
+    }
+body{
+    background-color: aqua;
+}
