@@ -4,3 +4,18 @@
 .table{
 width: 100%;
 }
+.encabezado{
+    font-size: 25px;
+}
+.nom{
+ color: indigo;
+}
+.ed{
+    color: orange;
+}
+.lug{
+    color: orchid;
+}
+.resto{
+    font-size: 15px;;
+}
