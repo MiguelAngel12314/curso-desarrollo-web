@@ -9,9 +9,9 @@
 <body>
     <form action="/action_page.php">
         <label class=N for="fname">Nombre:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
+        <input type="text" id="nombre" name="fname" value=""><br>
         <label class=A for="lname">Apellido:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="text" id="apellido" name="lname" value=""><br><br>
       </form> 
         <label class=L for="estado">Selecciona tu estado:</label>
         <select id="estado" name="estado">
@@ -19,7 +19,12 @@
           <option value="Estado de Michoacan">Estado de Michoacan</option>
           <option value="Ciudad de México">Ciudad de México</option>
         </select>
+        <br>
+        <button type="button" onclick="enviar()">Enviar</button>
+        <button type="button" onclick="limpiar()">Limpiar</button>
       </form>
+      <p>Mi nombre es: <span id="minombre"></span></p>
+      <p>Mi apellido es: <span id="miapellido"></span></p>
       <script src="js/index.js"></script>
       </body>
 </html>
