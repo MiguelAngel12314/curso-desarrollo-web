@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fromulario</title>
     <link rel="stylesheet" href="css/formu.css">
   </head>
 <body class="Fondo">
 
-    <form action="/action_page.php">
+    <form action=""">
         <label for="fname">Nombre:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
+        <input type="text" id="nombres" value=""><br>
         <label for="lname">Apellido:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="text" id="apellidos" value=""><br><br>
         <select name="Estado donde vives" >
             <option value="value1">CDMX</option> 
             <option value="value2">Estado de Mexico</option>
             <option value="value3">Queretaro</option>
-          </select>
-        <input type="reset" value="Limpiar">
-        <input type="submit" value="Enviar">
+        </select>
+        <button type="button" onclick="enviar()">Enviar</button>
+        <button type="button" onclick="limpiar()">Limpiar</button>
+
       </form>
+      <p>Mi Nombre es: <span id="minombre"></span></p>
+      <p>mi Apellido es: <span id="miapellido"></span></p>
       <script src="js/index.js"></script>
 </body>
 </html>
