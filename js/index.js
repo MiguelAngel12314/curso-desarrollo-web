@@ -6,6 +6,8 @@ var correo = document.getElementById('correo');
 var showCorreo = document.getElementById('micorreo');
 var contraseña = document.getElementById('contraseña');
 var showContraseña = document.getElementById('micontraseña');
+var estado = document.getElementById('estado');
+var showEstado = document.getElementById('miestado');
 
 function enviar(){
     showName.innerHTML=nombre.value;
@@ -19,6 +21,9 @@ function enviar(){
 
     showContraseña.innerHTML=contraseña.value;
     console.log(contraseña.value);
+
+    showEstado.innerHTML=estado.value;
+    console.log(estado.value);
 }
 
 function limpiar(){
@@ -33,4 +38,7 @@ function limpiar(){
 
     contraseña.value="";
     showContraseña.innerHTML="";
+
+    estado.value="";
+    showEstado.innerHTML="";
 }
