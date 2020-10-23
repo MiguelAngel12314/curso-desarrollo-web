@@ -13,17 +13,19 @@
         <input type="text" id="nombres" value=""><br>
         <label for="lname">Apellido:</label><br>
         <input type="text" id="apellidos" value=""><br><br>
-        <select name="Estado donde vives" >
-            <option value="value1">CDMX</option> 
-            <option value="value2">Estado de Mexico</option>
-            <option value="value3">Queretaro</option>
+        <select name="Estado donde vives" id="seleccion" >
+            <option value="CDMX">CDMX</option> 
+            <option value="Estado de Mexico">Estado de Mexico</option>
+            <option value="Queretaro">Queretaro</option>
         </select>
+          <input type="radio" name="sexo" value="Hombre">Hombre
+          <input type="radio" name="sexo" value="Mujer">Mujer <br>
+          <input type="checkbox" id="tiposexo">sexo
         <button type="button" onclick="enviar()">Enviar</button>
         <button type="button" onclick="limpiar()">Limpiar</button>
-        <input type="radio" id="Hombre">
-        <input type="radio" id="Mujer">
-        <input type="checkbox" id="dinamic">
-
+        <p> El sexo seleccionado es <span id="radiotiposexo"></span></p>
+        <p> El sexo es <span id="checkboxtiposexo"></span></p>
+        <p>EL estado donde vives es <span id="estadovalor" ></span> </p>
       </form>
       <p>Mi Nombre es: <span id="minombre"></span></p>
       <p>mi Apellido es: <span id="miapellido"></span></p>
