@@ -1,0 +1,26 @@
+.border1{
+    background: linear-gradient(to left, cyan, white, cyan);
+    text-align: center;
+
+    border-color: #0069d9;
+}
+.border2{
+    background: linear-gradient(to left, greenyellow, white, greenyellow);
+    text-align: center;
+
+    border-color: #0069d9;
+}
+.border3{
+    background: linear-gradient(to left, violet, white, violet);
+    text-align: center;
+    border-color: #0069d9;
+}
+.encima:hover{
+    background: linear-gradient(to left, springgreen, blue, springgreen);
+    border-color: greenyellow;
+    border-radius: 10px;
+        text-align: center;
+        width: 150px;
+        color: red;
+        cursor: pointer;
+}
